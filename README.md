@@ -1,6 +1,6 @@
 # Sekai 4koma Downloader
 
-Simple script to grab high-res English comics from Sekaipedia. It automatically skips thumbnails to get the full-quality files and renames them so they stay in order (001, 002, etc.).
+Simple script to grab high-res English comics from Sekaipedia. It automatically skips thumbnails to get the full-quality files.
 
 ## How to use
 
@@ -26,3 +26,7 @@ Simple script to grab high-res English comics from Sekaipedia. It automatically 
 ## Heads up
 * **Paths**: If you're on **Windows**, your path should look like `C:/Users/Name/Downloads/Comics`. Use forward slashes `/` even on Windows to avoid issues.
 * **Speed**: There is a tiny delay (`time.sleep`) between downloads so the site's server doesn't get annoyed.
+
+## HEADERS
+
+If the script output starts spitting out 403's, go into your search bar and type in "my user agent". Copy the info and paste it in the HEADERS variable where applicable. 
